@@ -1,0 +1,31 @@
+{
+    "CREDENTIALS": {
+        "user": "alicorp",
+        "password": "%EKqrGS^$jy$"
+    },
+    "SERVICES": {
+        "LOGIN": "http://186.4.133.146:8081/api/Auth/login",
+        "TABLES": [
+            {
+                "ep": "http://186.4.133.146:8081/alicorp/products",
+                "name": "productos"
+            },
+            {
+                "ep": "http://186.4.133.146:8081/alicorp/stock",
+                "name": "stock"
+            },
+            {
+                "ep": "http://186.4.133.146:8081/alicorp/vendors",
+                "name": "vendedores"
+            },
+            {
+                "ep": "http://186.4.133.146:8081/alicorp/clients",
+                "name": "clientes"
+            },
+            {
+                "ep": "http://186.4.133.146:8081/alicorp/sales",
+                "name": "ventas"
+            }
+        ]
+    }
+}
