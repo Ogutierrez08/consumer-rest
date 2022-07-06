@@ -12,7 +12,6 @@ function consumeLogin(URL, username, pass) {
       'Content-Type': 'application/json'
     }
   }
-
   axios.post(URL, data, config)
     .then(response => resolve(response.data))
     .catch((error) => console.log(error))
@@ -22,6 +21,7 @@ function consumeLogin(URL, username, pass) {
 
 function consumeFiles(URL, bearer) {
   return new Promise(resolve => {
+    console.log(`Generando datos desde...${URL}`)
     config = {
       headers: {
         'Content-Type': 'application/json',

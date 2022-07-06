@@ -27,5 +27,10 @@
                 "name": "ventas"
             }
         ]
+    },
+    "ROUTER" : {
+        "DATAREPOSITORY" : "D:/rest-consumer/src/data/",
+        "LOCALPATH" : "D:/rest-consumer/src/data/",
+        "OUTPATH" : "D:/rest-consumer/src/output/output.zip"
     }
 }
